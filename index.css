@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: auto 50%;
+    background-repeat: no-repeat ;
+    background: #e0e8ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-block: 1em ;
+    background-color: #fff;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+}
+.box-image img{
+width: 100%;
+}
+.card-body{
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.card-body h1{
+    font-weight: 700;
+    color: rgb(19, 17, 17);
+}
+.card-body p{
+    color: grey ;
+}
+.card-body .plan{
+    padding: 1em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border-radius: 10px;
+}
+.plan img{
+    height: 2.2em;
+}
+.plan .details{
+    text-align: left;
+}
+.plan .details h4{
+    color: grey;
+}
+.plan .details p{
+    color: rgb(162, 52, 235);
+}
+.plan a{
+    text-decoration: underline;
+    color: rgb(171, 9, 192);
+    font: .8em;
+}
+.plan a:hover{
+    text-decoration: none;
+    color: rgb(111, 37, 163);
+}
+.box .btn-pay{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1em;
+    transition: 1s;
+    border-radius: .5em;
+    box-shadow: 0 5px 1em rgb(110, 8, 131);
+}  
+.box .btn-pay:hover{
+color: green;
+}
+.btn .pay{
+    background-color: rgb(182, 112, 209);
+    color: white;
+}
+.btn:hover{
+   color: red;
+}
